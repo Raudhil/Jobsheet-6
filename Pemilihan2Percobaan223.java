@@ -18,10 +18,10 @@ public class Pemilihan2Percobaan223{
         totalSudut = s1 + s2 + s3;
 
         if(totalSudut == 180){
-            if((s1 == 90) || (s2 == 90) || (s3 == 90))
-            System.out.println("Segitiga tersebut adalah segitiga siku - siku");
+            if((s1 == 60) && (s2 == 60) && (s3 == 60))
+            System.out.println("Segitiga tersebut adalah segitiga sama sisi");
             else
-            System.out.println("Segitiga tersebut bukan segitiga siku - siku");
+            System.out.println("Segitiga tersebut bukan segitiga sama sisi");
         } else
             System.out.println("Bukan segitiga");
     }
